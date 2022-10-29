@@ -1,7 +1,5 @@
 package minimizer.functions;
 
-import minimizer.functions.Function;
-
 public class MultimodalFunction1 implements Function {
     @Override
     public double evaluate(double x) {

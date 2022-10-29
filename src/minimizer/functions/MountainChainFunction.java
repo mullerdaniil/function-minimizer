@@ -1,7 +1,5 @@
 package minimizer.functions;
 
-import minimizer.functions.Function;
-
 public class MountainChainFunction implements Function {
     @Override
     public double evaluate(double x) {
