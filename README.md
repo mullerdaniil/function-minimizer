@@ -15,3 +15,5 @@ eps = 0.0001;
 Minimizer minimizer = new Minimizer(a, b, eps, function);
 System.out.println(minimizer.findMinimum(new ParabolaAlgorithm()));
 ```
+
+### Здесь можно почитать более подробную информацию:
