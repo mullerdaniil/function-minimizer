@@ -3,9 +3,19 @@ package minimizer.algorithms;
 import minimizer.functions.Function;
 import minimizer.ValuesCounter;
 
+/**
+ * The implementation of {@code Algorithm} interface that uses Brent algorithm to find the minimum.
+ */
 public class BrentAlgorithm implements Algorithm {
+
+    /**
+     * Phi constant
+     */
     private static final double PHI = (3 - Math.sqrt(5)) / 2;
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public double findMinimum(double a, double b, double eps, Function function) {
         ValuesCounter counter = new ValuesCounter("Brent");

@@ -2,10 +2,18 @@ package minimizer.algorithms;
 
 import minimizer.functions.Function;
 import minimizer.ValuesCounter;
-
+/**
+ * The implementation of {@code Algorithm} interface that uses the dichotomy algorithm to find the minimum.
+ */
 public class DichotomyAlgorithm implements Algorithm {
+    /**
+     * Coefficient used to split the search interval
+     */
     private static final double DELTA_COEFFICIENT = 0.4999;
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public double findMinimum(double a, double b, double eps, Function function) {
         ValuesCounter counter = new ValuesCounter("Dichotomy");

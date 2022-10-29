@@ -2,9 +2,14 @@ package minimizer.algorithms;
 
 import minimizer.functions.Function;
 import minimizer.ValuesCounter;
-
+/**
+ * The implementation of {@code Algorithm} interface that uses the parabola algorithm to find the minimum.
+ */
 public class ParabolaAlgorithm implements Algorithm {
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public double findMinimum(double a, double b, double eps, Function function) {
         ValuesCounter counter = new ValuesCounter("Parabola");

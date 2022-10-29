@@ -2,10 +2,18 @@ package minimizer.algorithms;
 
 import minimizer.functions.Function;
 import minimizer.ValuesCounter;
-
+/**
+ * The implementation of {@code Algorithm} interface that uses the golden section search algorithm to find the minimum.
+ */
 public class GoldenSectionSearchAlgorithm implements Algorithm {
+    /**
+     * Phi constant
+     */
     private static final double PHI = (3 - Math.sqrt(5)) / 2;
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public double findMinimum(double a, double b, double eps, Function function) {
         ValuesCounter counter = new ValuesCounter("Golden section search");

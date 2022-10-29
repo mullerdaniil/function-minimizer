@@ -2,9 +2,19 @@ package minimizer.algorithms;
 
 import minimizer.functions.Function;
 import minimizer.ValuesCounter;
-
+/**
+ * The implementation of {@code Algorithm} interface that uses Fibonacci algorithm to find the minimum.
+ */
 public class FibonacciAlgorithm implements Algorithm {
+    /**
+     * the size of the precomputed {@code FIB} array
+     */
     private static final int MAX_FIB = 500;
+
+    /**
+     * the precomputed array containing all numbers from the Fibonacci sequence
+     * up until the MAX_FIBth number
+     */
     private static final double[] FIB = new double[MAX_FIB];
 
     static {
@@ -14,6 +24,9 @@ public class FibonacciAlgorithm implements Algorithm {
         }
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public double findMinimum(double a, double b, double eps, Function function) {
         ValuesCounter counter = new ValuesCounter("Fibonacci");
