@@ -1,6 +1,6 @@
 package minimizer.algorithms;
 
-import minimizer.Function;
+import minimizer.functions.Function;
 import minimizer.ValuesCounter;
 
 public class BrentAlgorithm implements Algorithm {

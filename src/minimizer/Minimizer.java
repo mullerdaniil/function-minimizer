@@ -1,6 +1,7 @@
 package minimizer;
 
 import minimizer.algorithms.Algorithm;
+import minimizer.functions.Function;
 
 public class Minimizer {
     private final double a;

@@ -1,6 +1,8 @@
 package minimizer;
 
 import minimizer.algorithms.*;
+import minimizer.functions.Function;
+import minimizer.functions.MountainChainFunction;
 
 public class TestClass {
     public static void main(String[] args) {
