@@ -1,7 +1,5 @@
 package minimizer.functions;
 
-import minimizer.functions.Function;
-
 public class MultimodalFunction2 implements Function {
 
     @Override
