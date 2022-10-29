@@ -7,7 +7,7 @@ public class ValuesCounter {
     private final String name;
     private int iterationsCount = 0;
     private int functionEvalutionsCount = 0;
-    private List<Double> intervalSizes;
+    private final List<Double> intervalSizes;
 
     public ValuesCounter(String name) {
         intervalSizes = new ArrayList<>();

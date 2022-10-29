@@ -3,10 +3,10 @@ package minimizer;
 import minimizer.algorithms.Algorithm;
 
 public class Minimizer {
-    private double a;
-    private double b;
-    private double eps;
-    private Function function;
+    private final double a;
+    private final double b;
+    private final double eps;
+    private final Function function;
 
     public Minimizer(double a, double b, double eps, Function function) {
         this.a = a;
