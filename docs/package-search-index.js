@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"minimizer"},{"l":"minimizer.algorithms"},{"l":"minimizer.functions"},{"l":"minimizer.tests"}]
