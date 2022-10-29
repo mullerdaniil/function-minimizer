@@ -17,3 +17,5 @@ System.out.println(minimizer.findMinimum(new ParabolaAlgorithm()));
 ```
 
 ### Здесь можно почитать более подробную информацию:
+[Об алгоритмах](./src/minimizer/algorithms/README.md) \
+[О функциях](./src/minimizer/functions/README.md)
